@@ -1,0 +1,12 @@
+name = EN user fields
+description = Site specific field for EN
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = features
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = field_en_site_specific_field_1
+features[field_base][] = field_en_site_specific_field_2
+features[field_instance][] = user-user-field_en_site_specific_field_1
+features[field_instance][] = user-user-field_en_site_specific_field_2
